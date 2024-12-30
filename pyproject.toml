@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "educa"
+version = "0.1.0"
+description = ""
+authors = ["S1m-s1m <2007kim.maksim@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django-braces = "^1.16.0"
+django-embed-video = "^1.4.10"
+pymemcache = "^4.0.0"
+django-debug-toolbar = "^4.4.6"
+django-redisboard = "^8.4.0"
+attrs = "^24.2.0"
+requests = "^2.32.3"
+django-restframework = "^0.0.1"
+djangorestframework = "^3.15.2"
+channels = "3.0.5"
+channels-redis = "^4.2.1"
+daphne = "3.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
